@@ -1,5 +1,5 @@
 学习笔记
-# 02-01
+## 02-01
 乔姆斯基谱系：是计算机科学中刻画形式文法表达能力的一个分类谱系，是由诺姆·乔姆斯基于 1956 年提出的。它包括四个层次：
     0- 型文法（无限制文法或短语结构文法）包括所有的文法。
     1- 型文法（上下文相关文法）生成上下文相关语言。
@@ -7,7 +7,7 @@
     3- 型文法（正规文法）生成正则语言。
 https://zh.wikipedia.org/wiki/乔姆斯基谱系
 
-# 02-02
+## 02-02
 产生式（BNF）： 在计算机中指 Tiger 编译器将源程序经过词法分析（Lexical Analysis）和语法分析（Syntax Analysis）后得到的一系列符合文法规则（Backus-Naur Form，BNF）的语句
 巴科斯诺尔范式：即巴科斯范式（英语：Backus Normal Form，缩写为 BNF）是一种用于表示上下文无关文法的语言，上下文无关文法描述了一类形式语言。它是由约翰·巴科斯（John Backus）和彼得·诺尔（Peter Naur）首先引入的用来描述计算机语言语法的符号集。
 终结符： 最终在代码中出现的字符（ https://zh.wikipedia.org/wiki/終結符與非終結符)
@@ -47,7 +47,7 @@ BNF：
 BNF: 
 <PE>:: = <AE> | "(" <PE> ")" | <PE><MO><PE>|<PE><AO><PE>|<ME>*<Number>
 
-# 02-03
+## 02-03
 通过产生式理解乔姆斯基谱系
 • 0型 无限制文法
 • ?::=?
@@ -58,7 +58,7 @@ BNF:
 • <A>::=<A>?
 • <A>::=?<A> ×
 
-# 02-04
+## 02-04
 现代语言分类
 语言形式——用途
     数据描述语言（html，css，xaml，sql等）
@@ -70,7 +70,7 @@ BNF:
 尽可能寻找你知道的计算机语言，尝试把它们分类（作业的要义：有什么语言，有哪些分类方式，怎么归类）
 
 
-# 02-05
+## 02-05
 编程语言的性质
 图灵完备性
     命令式——图灵机
@@ -98,7 +98,7 @@ BNF:
 • 泛型
     • 逆变 /协变
 
-# 02-06
+## 02-06
 一般命令式编程语言的设计方式
 Atom : Identifier , Literal
 Expression : Atom , Perator , Punctuator ,
@@ -106,14 +106,14 @@ Statement : Expression , Keyword , Punctuator
 Structure : Function , Class , Process , Namespace ...
 Program : Program , Module , Package , Library
 
-# 02-07
+## 02-07
 JS类型|Number
 IEEE 754 Double Float
     • Sign（1） 
     • Exponent（11） 
     • Fraction（52）
 
-# 02-08
+## 02-08
 JS类型|Sttring
 ASCLL
 unicode
@@ -122,13 +122,13 @@ gb ...
 'abc'
 `abc${b}`
 
-# 02-09
+## 02-09
 JS类型|其它类型
 Boolean
 null & undefined , void 0;
 
 
-# 02-10
+## 02-10
 JS类型|Object & Symbol
 Object
 Object - Class
@@ -147,7 +147,7 @@ class Dog extends Animal{
     }
 }
 
-# 02-11
+## 02-11
 JS类型|Object
 Object - Property
 set get values ...
